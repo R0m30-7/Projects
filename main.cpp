@@ -13,7 +13,6 @@ int numeriGenerati[numeriDaGenerare];
 int quad1[k][k], quad2[k][k], quad3[k][k], quad4[k][k], quad5[k][k], quad6[k][k], quad7[k][k], quad8[k][k], quad9[k][k];
 
 void generaNumeri(int addOn);
-void stampaNumeriGenerati();
 void stampaSudoku(int matr1[k][k], int matr2[k][k], int matr3[k][k], int matr4[k][k], int matr5[k][k], int matr6[k][k], int matr7[k][k], int matr8[k][k], int matr9[k][k]);
 void impostaMatrice(int matr[k][k], int vet[k * 3]);
 void eliminaNumeriGenerati(int vet[k]);
@@ -89,14 +88,6 @@ void generaNumeri(int addOn){
 		}
 		
 		conta1++;
-	}
-}
-
-void stampaNumeriGenerati(){
-	int conta = 0;
-	while(conta < numeriDaGenerare){
-		cout << numeriGenerati[conta] << endl;
-		conta++;
 	}
 }
 

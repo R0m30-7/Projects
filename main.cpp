@@ -29,7 +29,7 @@ int main() {
 	eliminaNumeriGenerati(numeriGenerati);
 	generaNumeri(2);
 	impostaMatrice(quad3, numeriGenerati);
-	
+	//Mi piacciono i piselli
 	eliminaNumeriGenerati(numeriGenerati);
 	generaNumeri(3);
 	impostaMatrice(quad4, numeriGenerati);

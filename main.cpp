@@ -45,7 +45,7 @@ int main() {
 	eliminaNumeriGenerati(numeriGenerati);
 	generaNumeri(6);
 	impostaMatrice(quad7, numeriGenerati);
-	//Mi piacciono i piselli
+
 	eliminaNumeriGenerati(numeriGenerati);
 	generaNumeri(7);
 	impostaMatrice(quad8, numeriGenerati);
